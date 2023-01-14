@@ -186,3 +186,24 @@ footer {
 
 
 }
+footer {
+    background-color: rgb(46, 120, 139);;
+    position: relative;
+    color: white;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
+footer a {
+    color: white;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px lightblue;
+}
+#updated {
+    color: lightblue;
+    font-size: 12px;
